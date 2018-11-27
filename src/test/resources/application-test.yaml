@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  application:
+    name: "article-data-com.robin.testcontainersexample.service"
+  datasource:
+    initialization-mode: always
+    url: "jdbc:postgresql://localhost:32770/"
+    username: "klausimausi"
+    password: "klausimausi"

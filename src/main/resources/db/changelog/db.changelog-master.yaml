@@ -1,0 +1,20 @@
+databaseChangeLog:
+
+- changeSet:
+    id: 1
+    author: rmai
+    changes:
+    - createTable:
+        tableName: hello
+        columns:
+        - column:
+            name: id
+            type: varchar(255)
+            constraints:
+              primaryKey: true
+              nullable: false
+        - column:
+            name: name
+            type: varchar(255)
+            constraints:
+              nullable: true
