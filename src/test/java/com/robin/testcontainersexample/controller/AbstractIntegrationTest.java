@@ -15,7 +15,7 @@ import org.testcontainers.containers.PostgreSQLContainer;
 @SpringBootTest(classes = TestApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ContextConfiguration(initializers = AbstractIntegrationTest.Initializer.class)
 public abstract class AbstractIntegrationTest {
-    private static final String TEST_DATABASE_NAME = "test-articledatadb";
+    private static final String TEST_DATABASE_NAME = "test-db";
     private static final String TEST_USER = "klausimausi";
     private static final String TEST_PASSWORD = "klausimausi";
 
